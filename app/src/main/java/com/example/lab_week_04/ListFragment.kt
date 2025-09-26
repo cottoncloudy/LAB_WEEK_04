@@ -30,7 +30,7 @@ class ListFragment : Fragment() {
             fragmentBundle.putInt(COFFEE_ID, coffee.id)
             coffee.setOnClickListener(
                 Navigation.createNavigateOnClickListener(
-                    R.id.action_listFragment_to_detailFragment,
+                    R.id.action_listFragment_to_detailFragment5,
                     fragmentBundle
                 )
             )

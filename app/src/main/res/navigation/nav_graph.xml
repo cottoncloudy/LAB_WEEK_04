@@ -11,9 +11,10 @@
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
-            android:id="@+id/action_listFragment_to_detailFragment"
+            android:id="@+id/action_listFragment_to_detailFragment5"
             app:destination="@id/detailFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.lab_week_04.DetailFragment"
